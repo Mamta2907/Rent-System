@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style
+         name="ActionBar.Solid.Ribbit.TitleTextStyle"
+         parent = "TextAppearance.AppCompat.Widget.ActionBar.Title">
+         <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+
+</resources>

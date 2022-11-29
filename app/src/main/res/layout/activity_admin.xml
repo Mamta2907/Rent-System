@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainUserRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginBottom="30dp"
+        android:layout_margin="10dp"
+        />
+
+    <android.widget.Button
+        android:id="@+id/addUserBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        android:fontFamily="@font/button_font"
+        android:onClick="setAddUser"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="100dp"
+        android:text="@string/addUserBtn"
+        android:textColor="@color/white" />
+</LinearLayout>
